@@ -56,7 +56,7 @@ const handlePizzaSubmit = event => {
     method: 'POST',
     headers: {
       Accept: 'application/json',
-      'Content-Type': 'apllication/json'
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify(formData)
   })
